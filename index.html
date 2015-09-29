@@ -9,10 +9,13 @@
 
     <!--Controller-->
     <script src="js/MainController.js"></script>
+    <!--Directives-->
+    <script src="js/directives/hello-world.js"></script>
+
 </head>
 <body ng-app="HelloWorldApp">
 	<div ng-controller="MainController">
-		<p>{{ text }}</p>
+		<hello-world></hello-world>
 	</div>
 </body>
 </html>
